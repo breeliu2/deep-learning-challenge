@@ -8,7 +8,7 @@ The aim of this analysis was to assist nonprofit foundation Alphabet Soup in sel
 ## What variable(s) are the target(s) for your model?
 * The 'IS_SUCCESSFUL' column in the 'application_df' dataset serves as the target variable for our prediction task. Our goal is to predict whether the money was used effectively, as indicated by the binary values in this column.
 
-## What variable(s) are the features for your model? 
+## What variable(s) are the features of your model? 
 * The feature variables we used are:
 AFFILIATION—Affiliated sector of industry
 CLASSIFICATION—Government organization classification
@@ -46,14 +46,13 @@ The output layer has a single neuron, suitable for binary classification tasks.
 Activation Functions:
 The first and second hidden layers use the 'tanh' (hyperbolic tangent) activation function, which introduces non-linearity.
 The output layer uses the 'sigmoid' activation function, suitable for binary classification tasks, to produce a probability value between 0 and 1.
+
 Dropout Layers:
-
 Dropout layers with a dropout rate of 50% (0.5) are added after each hidden layer.
-Dropout is a regularization technique that helps prevent overfitting by randomly deactivating neurons during training.
-Input Features:
+Dropout is used to help prevent overfitting by randomly deactivating neurons during training.
 
+Input Features:
 The number of input features is determined by the length of the input data X_train_scaled[0].
-The model is designed to accept this number of features as input.
 
 <img width="783" alt="Screenshot 2023-08-04 at 12 42 10 AM" src="https://github.com/breeliu2/deep-learning-challenge/assets/124847109/5e539a39-f373-4f2d-9e37-a6f5d15864f3">
 
@@ -72,11 +71,9 @@ units=1 in the output layer, which has a single neuron for binary classification
 
 Input Features:
 The number of input features is determined using len(X_train_scaled[0]).
-The model is designed to accept this number of features as input.
 
 Sequential Model:
 The code initializes a sequential model using tf.keras.models.Sequential().
-A sequential model is a linear stack of layers, where each layer follows the previous one in a sequence.
 
 Adding Hidden Layers:
 The first hidden layer is added to the model using nn.add().
@@ -105,7 +102,6 @@ units=1 in the output layer, which has a single neuron for binary classification
 
 Input Features:
 The number of input features is determined using len(X_train_scaled[0]).
-The model is designed to accept this number of features as input.
 
 Sequential Model:
 The code initializes a sequential model using tf.keras.models.Sequential().
