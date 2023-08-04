@@ -4,11 +4,11 @@ Introduction
 The aim of this analysis was to assist nonprofit foundation Alphabet Soup in selecting applicants for funding with the highest likelihood of success in their ventures. Leveraging my expertise in machine learning and neural networks, I developed a binary classifier using the provided dataset's features to predict the potential success of applicants if funded by Alphabet Soup.
 
 
-Data Preprocesing
+## Data Preprocesing
 What variable(s) are the target(s) for your model?
 * The 'IS_SUCCESSFUL' column in the 'application_df' dataset serves as the target variable for our prediction task. Our goal is to predict whether the money was used effectively, as indicated by the binary values in this column.
 
-What variable(s) are the features for your model? 
+## What variable(s) are the features for your model? 
 * The feature variables we used are:
 AFFILIATION—Affiliated sector of industry
 CLASSIFICATION—Government organization classification
@@ -19,7 +19,7 @@ INCOME_AMT—Income classification
 SPECIAL_CONSIDERATIONS—Special considerations for application
 ASK_AMT—Funding amount requested
 
-What variable(s) should be removed from the input data because they are neither targets nor features?
+## What variable(s) should be removed from the input data because they are neither targets nor features?
 * Identification columns: "EIN" and "NAME" columns are identification columns that typically provide unique identifiers for each organization. It is often a good practice to drop identification columns before training a machine learning model. These columns do not contribute to the model's predictive power, and keeping them might lead to overfitting. 
 
 
