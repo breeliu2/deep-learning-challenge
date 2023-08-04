@@ -4,7 +4,7 @@ Introduction
 The aim of this analysis was to assist nonprofit foundation Alphabet Soup in selecting applicants for funding with the highest likelihood of success in their ventures. Leveraging my expertise in machine learning and neural networks, I developed a binary classifier using the provided dataset's features to predict the potential success of applicants if funded by Alphabet Soup.
 
 
-## Data Preprocesing
+Data Preprocessing
 What variable(s) are the target(s) for your model?
 * The 'IS_SUCCESSFUL' column in the 'application_df' dataset serves as the target variable for our prediction task. Our goal is to predict whether the money was used effectively, as indicated by the binary values in this column.
 
