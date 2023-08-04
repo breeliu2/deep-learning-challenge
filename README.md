@@ -5,6 +5,7 @@ The aim of this analysis was to assist nonprofit foundation Alphabet Soup in sel
 
 
 Data Preprocessing
+
 ## What variable(s) are the target(s) for your model?
 * The 'IS_SUCCESSFUL' column in the 'application_df' dataset serves as the target variable for our prediction task. Our goal is to predict whether the money was used effectively, as indicated by the binary values in this column.
 
