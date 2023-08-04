@@ -23,7 +23,8 @@ ASK_AMT—Funding amount requested
 * Identification columns: "EIN" and "NAME" columns are identification columns that typically provide unique identifiers for each organization. It is often a good practice to drop identification columns before training a machine learning model. These columns do not contribute to the model's predictive power, and keeping them might lead to overfitting. 
 
 
-Compiling, Training, and Evaluating the Model
+# Compiling, Training, and Evaluating the Model
+
 ## Baseline model 
 This model displays two hidden layers (80 and 30 neurons, respectively) and an output layer with a single neuron. The 'relu' activation function is used in the hidden layers to introduce non-linearity, and the 'sigmoid' activation function is used in the output layer for binary classification. 
 
