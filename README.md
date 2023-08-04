@@ -26,6 +26,7 @@ What variable(s) should be removed from the input data because they are neither 
 Compiling, Training, and Evaluating the Model
 ## Baseline model 
 This model displays two hidden layers (80 and 30 neurons, respectively) and an output layer with a single neuron. The 'relu' activation function is used in the hidden layers to introduce non-linearity, and the 'sigmoid' activation function is used in the output layer for binary classification. 
+
 <img width="587" alt="Screenshot 2023-08-04 at 12 55 51 AM" src="https://github.com/breeliu2/deep-learning-challenge/assets/124847109/71e430dc-2536-4891-9a62-275bbce93901">
 
 The model performance displayed 73% accuracy 
